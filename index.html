@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebRádio</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+   
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">WebRádio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado" >
+        <ul class="nav navbar-nav ml-auto mt-lg-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(página atual)</span></a>
+          </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Programação
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Hoje</a>
+              <a class="dropdown-item" href="#">Amanhã</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Eventos</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /Navbar -->
+   
+
+    <!-- Home -->
+    <section id="home">
+     <div class="container">
+          <div class="row" >
+               <h1>Seja bem vindo a Web Rádio</h1>
+               </div>
+           <div class="row">
+               <h5>Seja bem vindo a sua WebRádio! Aqui você escuta as melhores músicas, tem direito a pedir as suas preferidas, e conta com a melhor qualidade e facilidade que uma WebRádio pode proporcionar! Cheque a programação para não perder nada, mande-nos sugestões, dicas, elogios e peça suas músicas preferidas abaixo na aba <a href="#contato">Contato.</a> Curta as melhores músicas gratuitamente, obrigado por escolher a WebRádio. Esperamos que sua experiência seja inesquecível!</h5>
+           </div>
+           
+       </div>
+    </section> <!-- /Home -->
+      <div class="container">
+      <section>
+       <div class="row">
+            <div id="noar" class="card" style="width: 18rem;">
+               <div class="card-body">
+                    <h5 class="card-title">No ar agora<span class="ball" style="float: right;"></span></h5>
+                    <iframe width="250rem" src="https://www.youtube.com/embed/Pkh8UtuejGw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+                <!-- Chat -->
+                <section id="chat" style="float: right; margin-left: auto;">
+                    <div class="card" style="width: 50rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Chat aqui.</h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Chat -->
+        </div>
+        
+        <div class="row">
+            <div id="tophits" class="card" style="width: 18rem; ">
+               <h5 class="card-title">Top Hits</h5>
+                <div class="card-body">
+                    
+                    <ol>
+                        <li><h5>Música</h5> <p>Artista</p></li>
+                        <li><h5>Música</h5> <p>Artista</p></li>
+                        <li><h5>Música</h5> <p>Artista</p></li>
+                        <li><h5>Música</h5> <p>Artista</p></li>
+                        <li><h5>Música</h5> <p>Artista</p></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    
+   </section>
+    
+
+    
+    <!-- Programação -->   
+    <section id="programacao">
+      <div class="row">
+          <h1>Programação</h1>
+      </div>
+       <div class="container">
+           <div class="row">    
+                <ul>
+                    <li>10:00 - 12:00 => Programa da manhã</li>
+                    <li>12:00 - 14:00 => Música sem parar</li>
+                    <li>14:00 - 15:00 => Entrevista bacana</li>
+                    <li>15:00 - 16:00 => Mais músicas</li>
+                    <li>16:00 - 17:00 => Notícias Esportivas</li>
+                    <li>18:00 - 19:00 => Notícias do Brasil e do mundo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- /Programação -->
+    
+    <!-- Equipe -->
+    <section id="equipe">
+        
+    </section>
+    <!-- /Equipe -->
+    
+    <!-- Contato -->
+    <section id="contato">
+       
+        <div class="row">
+          <h1>Contato</h1>
+           <div class="card" style="width: 80rem;">
+           <div class="card-body">
+               <h3 class="card-title">Mande uma mensagem pra nós!</h3>
+                <div class="col-md-12">
+                    <div class="well well-sm">
+                        <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Nome e Sobrenome</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Nome e Sobrenome" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">
+                                        Endereço de Email</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                        </span>
+                                        <input type="email" class="form-control" id="email" placeholder="Endereço de e-mail" required="required" /></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Assunto</label>
+                                    <input type="text" class="form-control" id="assunto" placeholder="Assunto do contato.">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Mensagem</label>
+                                    <textarea name="message" id="message" class="form-control" rows="8" cols="25" required="required"
+                                        placeholder="Mensagem"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Enviar</button>
+                            </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- /Contato -->
+
+</div> <!-- /container -->
+    
+</body>
+</html>
+
+<!-- JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="assets/js/bootstrap.min.js"></script>
